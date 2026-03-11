@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Student list styling */
+#student-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.student-item {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    gap: 8px;
+}
+
+.student-item span {
+    margin-right: 3px;
+}
+
+/* Buttons */
+.btn-edit {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+/* Student highlight */
+.highlight {
+    background-color: yellow;
+}
+
+.present {
+    background-color: lightgreen;
+}
+
+.top-student {
+    border: 3px solid red;
+}
+
+/* LEFT CONTROL PANEL */
+.controls {
+    position: fixed;
+    left: 20px;
+    top: 120px;
+    width: 200px;
+}
+
+.controls input,
+.controls button,
+.controls p {
+    display: block;
+    margin-bottom: 10px;
+}
